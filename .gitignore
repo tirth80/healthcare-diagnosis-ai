@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files - too large for Git
+data/raw/
+data/processed/
+data/external/
+*.csv
+*.parquet
+*.json
+*.xlsx
+!configs/*.yaml
+
+# Images - too large for Git
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.dcm
+
+# Model artifacts - too large for Git
+models/checkpoints/
+models/final/
+models/experiments/
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# Logs and outputs
+logs/
+outputs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets and credentials
+.env
+.env.local
+*.pem
+*.key
+credentials.json
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
