@@ -1,0 +1,33 @@
+Paste this:
+```
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebooks
+notebooks/
+*.ipynb
+
+# Data files (too large for container)
+data/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Tests
+tests/
+
+# Other
+*.md
+*.txt
+!requirements.txt
